@@ -11,17 +11,32 @@ Implement a function that takes an array and sorts it using this technique.
 NOTE: DO NOT use JavaScript’s built-in sorting function (Array.prototype.sort).
 */
 function bubbleSort(arr) {
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = 0; j < arr.length -1; j++) {
-      if (arr[j] > arr[j + 1]) {
-        var temp = arr[j + 1];
-        arr[j + 1] = arr[j];
-        arr[j] = temp;
+  let sorted = arr.slice();
+  for (let i = 0; i < sorted.length; i++) {
+    for (let j = 0; j < sorted.length; j++) {
+      if (sorted[j] > sorted[j+1]) {
+        [sorted[j], sorted[j+1]] = [sorted[j+1], sorted[j]];
       }
-
     }
   }
-  return arr;
+  return sorted;
 }
 
+//Zak's version
+// var bubbleSort = function(array) {
+//   let sorted = array.slice(), done = false;
+//   let count = 0;
+//   while (!done) {
+//     done = true;
+//     for(var x = 0; x < sorted.length; x++) {
+//       if(sorted[x] > sorted[x+1]) { 
+//         [sorted[x], sorted[x+1]] = [sorted[x+1], sorted[x]];
+//         done = false; 
+//         console.log(sorted, x, count++);
+//         break; }
+//     }
+//   };
+//   return sorted;
+// };
+console.log(bubbleSort([3,2,1]));
 console.log(bubbleSort([18, 30, 25, 28, 24, 19, 31, 20, 35, 24, 36, 26, 30, 29, 40, 36]));
