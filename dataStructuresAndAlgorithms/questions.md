@@ -1,7 +1,8 @@
 ## Trees
-- [x] [Print out all of a Binary Tree's root-to-leaf paths one per line](http://www.geeksforgeeks.org/given-a-binary-tree-print-out-all-of-its-root-to-leaf-paths-one-per-line/). 
-- [ ] http://stackoverflow.com/questions/7540546/merging-2-binary-search-trees
+- [x] [1. Print out all of a Binary Tree's root-to-leaf paths one per line](http://www.geeksforgeeks.org/given-a-binary-tree-print-out-all-of-its-root-to-leaf-paths-one-per-line/). 
+- [x] [2. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [ ] http://articles.leetcode.com/2011/04/construct-binary-tree-from-inorder-and-preorder-postorder-traversal.html
+- [ ] http://stackoverflow.com/questions/7540546/merging-2-binary-search-trees
 - [ ] http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
 - [ ] http://stackoverflow.com/questions/12850889/in-order-iterator-for-binary-tree
 - [ ] http://articles.leetcode.com/convert-binary-search-tree-bst-to
