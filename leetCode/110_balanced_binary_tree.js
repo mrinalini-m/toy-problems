@@ -79,3 +79,4 @@ one.left = new TreeNode(0);
 // six.left = five;
 // six.right = seven;
 console.log(isBalanced(four));
+
