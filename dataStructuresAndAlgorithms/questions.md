@@ -3,6 +3,7 @@
 - [x] 2. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [x] 3. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 - [x] 4. [Path Sum](https://leetcode.com/problems/path-sum/description/)
+- [x] 5. [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
 - [ ] http://articles.leetcode.com/2011/04/construct-binary-tree-from-inorder-and-preorder-postorder-traversal.html
 - [ ] http://stackoverflow.com/questions/7540546/merging-2-binary-search-trees
 - [ ] http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
