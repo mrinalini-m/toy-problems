@@ -44,7 +44,27 @@ selectionSort = (nums) => {
   return nums;
 }
 
-console.log(selectionSort([5,4,3,2,1,6]));
-console.log(selectionSort([5,4,3,1,2]));
-console.log(selectionSort([1,2,11,3,6]));
-console.log(selectionSort([1,2,11,3,6,2,6]));
+function selectionSort2(arr) {
+  function swap(i, j, arr) {
+    const temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+  for (let i = 0; i < arr.length; i++) {
+    let currMin = arr[i];
+    let minIndex = i;
+    for (let j = i+1; j < arr.length; j++) {
+      if (arr[j] < currMin) {
+        currMin = arr[j];
+        minIndex = j;
+      } 
+    }
+    swap(i, minIndex, arr);
+  }
+  return arr;
+}
+console.log(selectionSort2([5,4,3,2,1,6]));
+console.log(selectionSort2([-5,4,3,2,-1,6]));
+console.log(selectionSort2([5,4,3,1,2]));
+console.log(selectionSort2([1,2,11,3,6]));
+console.log(selectionSort2([1,2,11,3,6,2,6]));

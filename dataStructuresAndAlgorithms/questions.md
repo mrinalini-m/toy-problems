@@ -4,6 +4,7 @@
 - [x] 3. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 - [x] 4. [Path Sum](https://leetcode.com/problems/path-sum/description/)
 - [x] 5. [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
+- [x] 6. [Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)
 - [ ] http://articles.leetcode.com/2011/04/construct-binary-tree-from-inorder-and-preorder-postorder-traversal.html
 - [ ] http://stackoverflow.com/questions/7540546/merging-2-binary-search-trees
 - [ ] http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
@@ -26,7 +27,7 @@ Sorting
 - [ ] http://stackoverflow.com/questions/7153659/find-an-integer-not-among-four-billion-given-ones?rq=1
 
 Linklist
-- [ ] http://programming-puzzle.blogspot.com/2014/02/zip-of-linked-list.html
+- [x] http://programming-puzzle.blogspot.com/2014/02/zip-of-linked-list.html
 - [ ] http://articles.leetcode.com/2011/01/sliding-window-maximum.html
 - [ ] http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
 mergesort a linked lists
